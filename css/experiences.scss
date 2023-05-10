@@ -1,0 +1,19 @@
+.timeline {
+  .timeline-item {
+    .year {
+      align-self: flex-start;
+      clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+    }
+    .timeline-divider {
+      .dot {
+        height: 1rem;
+        width: 1rem;
+        box-shadow: 0 0 15px 0px rgba(var(--bs-secondary-rgb), 1);
+      }
+      .timeline-divider-line {
+        flex: 1;
+        width: 1px;
+      }
+    }
+  }
+}

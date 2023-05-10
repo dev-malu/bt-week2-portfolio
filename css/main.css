@@ -1,0 +1,112 @@
+:root {
+  --bs-tertiary-bg-rgb: 30, 30, 30;
+  --bs-body-bg-rgba: 20, 20, 20;
+  --bs-secondary-rgb: 241, 182, 115;
+  --bs-secondary-2-rgb: 222, 152, 72;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+}
+body::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  background-image: url("../images/person.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(1);
+}
+
+.navbar-brand {
+  color: rgba(var(--bs-secondary-rgb), 1);
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: rgba(var(--bs-secondary-rgb), 1);
+  --bs-btn-border-color: rgba(var(--bs-secondary-rgb), 1);
+  --bs-btn-hover-bg: rgba(var(--bs-secondary-rgb), 1);
+}
+
+.btn-secondary {
+  --bs-btn-bg: rgba(var(--bs-secondary-rgb), 1);
+  --bs-btn-color: rgba(0, 0, 0, 1);
+  --bs-btn-hover-bg: rgba(var(--bs-secondary-2-rgb), 1);
+  --bs-btn-hover-color: rgba(0, 0, 0, 1);
+}
+
+#main-nav {
+  background: none !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+}
+#main-nav a {
+  cursor: pointer;
+}
+#main-nav.scrolled {
+  background: rgba(var(--bs-body-bg-rgba), 1) !important;
+}
+
+#main-logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+#global-search {
+  max-width: 7rem;
+  outline: none;
+  box-shadow: none;
+}
+@media screen and (max-width: 768px) {
+  #global-search {
+    max-width: 100%;
+  }
+}
+
+#page-block {
+  position: relative;
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.6);
+}
+
+#social {
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+}
+
+.line {
+  border-top: 2px solid rgba(var(--bs-secondary-rgb), 1);
+  min-width: 2rem;
+  margin-right: 1rem;
+  margin-top: 0.7rem;
+}
+.line.short {
+  min-width: 1rem;
+}
+.line.long {
+  min-width: 3rem;
+}
+
+.vertical-line {
+  border-left: 2px solid rgba(var(--bs-secondary-rgb), 1);
+  margin-left: 0.7rem;
+  min-height: 2rem;
+}
+.vertical-line.short {
+  min-height: 1rem;
+}
+.vertical-line.long {
+  min-height: 3rem;
+}/*# sourceMappingURL=main.css.map */

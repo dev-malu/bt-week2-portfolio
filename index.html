@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-5" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg"
+          id="main-logo">
+          <path d="M73.5 27L0 154L18.5 164.5L73.5 69L91.5 98.5C101.1 98.1 113.167 101.333 118 103L73.5 27Z"
+            fill="currentColor" />
+          <path
+            d="M73.5 80.5L23.5 167L41 178C81.4 132 121.833 158.833 137 178L155.5 167C129.1 127.4 85.1667 128.833 66.5 134.5L86 100.5L73.5 80.5Z"
+            fill="currentColor" />
+          <path
+            d="M77 126.5L89 105.5C103.4 103.9 122 109.5 129.5 112.5L77 21L89 0.5L178 154L159.5 164C132.7 126.8 93.3333 123.5 77 126.5Z"
+            fill="currentColor" />
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="/" class="nav-link active">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="/experiences.html" class="nav-link">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="/testimonial.html" class="nav-link">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a href="/hobbies.html" class="nav-link">Hobbies</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="input-group mb-3">
+            <input class="form-control border-0" type="search" id="global-search" placeholder="Search"
+              aria-label="Search">
+            <span class="input-group-text border-0 bg-body">
+              <i class="bi bi-search"></i>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- nvbar [end] -->
+
+  <section id="page-block" class="min-vh-100 d-flex align-items-center p-5">
+    <div class="profile p-2 p-md-5 mt-0 mt-md-4">
+      <div class="d-flex align-items-end">
+        <span class="mb-1 me-2 h3 fw-normal">I'M</span>
+        <h1 class="text-secondary m-0 p-0">shilpa Bindhu</h1>
+      </div>
+      <h2 class="h3 mt-2">Full-stack developer</h2>
+      <a class="btn btn-outline-secondary mt-2" href="/contact.html#contact">
+        Contact Me
+      </a>
+    </div>
+    <div class="d-flex flex-column align-items-center gap-3" id="social">
+      <div class="vertical-line long m-auto"></div>
+      <a href="https://www.instagram.com/s__h__i__l__p__a/" target="_blank" class="text-white fs-4">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/shilpa.anil.942" target="_blank" class="text-white fs-4">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/shilpa-bindhu-7422aa184/" target="_blank" class="text-white fs-4">
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </div>
+  </section>
+
+  <section class="px-4 px-md-5 pt-5 pb-2">
+    <div class="container pb-3 pt-5">
+      <h2 class="text-white">About</h2>
+      <div class="d-flex">
+        <span class="line"></span>
+        <p>
+          I am a 27 year old <span class="text-secondary">Fullstack developer</span>
+          from Munich, Germany. I have <span class="text-secondary">4 years</span> of experience in the field of
+          <span class="text-secondary">Software Testing </span>. I am currently switching my domain to
+          frontend by pursuing an internship in frontend development focussing on <span class="text-secondary">MEAN
+            stack</span>
+        </p>
+      </div>
+      <div class="d-flex">
+        <span class="line"></span>
+        <p>
+          With my strong experience in the field of software testing I believe I have developed a Strong problem-solving
+          skills,attention to detail and strong communication skills which can contribute more values to my profile.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-4 px-md-5 pt-5 pb-2">
+    <div class="container py-3">
+      <h2 class="text-center mb-4 text-white">My Skills</h2>
+      <div class="row justify-content-center g-4" id="skills">
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card pointer w-100 shadow-md card border-0 rounded-4"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/js.png"></div><label
+              class="card-label text-center w-100 text-white">JavaScript</label>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://nodejs.org/en" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/node.png"></div><label
+              class="card-label text-center w-100 text-white">NodeJS</label>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://angular.io/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/angular.png"></div><label
+              class="card-label text-center w-100 text-white">Angular</label>
+          </a>
+        </div>
+        <!-- <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://vuejs.org/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/vue.png"></div><label
+              class="card-label text-center w-100 text-white">Vue</label>
+          </a>
+        </div> -->
+        <!-- <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://react.dev/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/react.png"></div><label
+              class="card-label text-center w-100 text-white">React</label>
+          </a>
+        </div> -->
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://git-scm.com/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/git.png"></div><label
+              class="card-label text-center w-100 text-white">Git Source Control</label>
+          </a>
+        </div>
+        <!-- <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://www.php.net/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/php.png"></div><label
+              class="card-label text-center w-100 text-white">PHP</label>
+          </a>
+        </div> -->
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://www.mongodb.com/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/mongo.svg"></div><label
+              class="card-label text-center w-100 text-white">MongoDB</label>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://www.html.com/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/html.png"></div><label
+              class="card-label text-center w-100 text-white">HTML</label>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://www.css.com/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/css.png"></div><label
+              class="card-label text-center w-100 text-white">CSS</label>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4"
+            href="https://www.https://getbootstrap.com/.com/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/bootstrap.png"></div><label
+              class="card-label text-center w-100 text-white">Bootstrap</label>
+          </a>
+        </div>
+        <!-- <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+          <a class="skill-card w-100 shadow-md card border-0 rounded-4" href="https://www.python.org/" target="_blank">
+            <div class="skill-image-container p-5 d-flex justify-content-center align-items-center"><img
+                class="card-img-top h-100 w-auto" src="./images/python.png"></div><label
+              class="card-label text-center w-100 text-white">Python</label>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <footer class="px-2 p-md-3">
+    <div class="container text-center py-4 text-white-50">
+      <h6>Thanks for stopping by!</h6>
+      <p>
+        Have a project in mind?
+        <br />
+        Contact me
+        <br />
+        <a class="text-white-50 text-decoration-none"
+          href="mailto:shilpamaalootty@gmail.com">shilpamaalootty@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

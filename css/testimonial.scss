@@ -1,0 +1,29 @@
+#testimonial {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.testimonial-item {
+  .testimonial-card {
+    position: relative;
+    height: 35vh;
+    margin-top: 15vh;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background: rgba(var(--bs-secondary-rgb), 1);
+      left: 100%;
+      width: 100%;
+    }
+    img {
+      position: absolute;
+      height: 50vh;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+}

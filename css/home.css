@@ -1,0 +1,18 @@
+#skills .skill-card {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  aspect-ratio: 1;
+}
+#skills .skill-card .skill-image-container {
+  height: 80%;
+}
+#skills .skill-card .skill-image-container img {
+  aspect-ratio: 1;
+}
+#skills .skill-card label {
+  position: absolute;
+  bottom: 20%;
+}
+#skills .skill-card:hover {
+  background: rgba(var(--bs-secondary-rgb), 1);
+}/*# sourceMappingURL=home.css.map */

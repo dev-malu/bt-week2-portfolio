@@ -1,0 +1,20 @@
+#skills {
+  .skill-card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    aspect-ratio: 1;
+    .skill-image-container {
+      height: 80%;
+      img {
+        aspect-ratio: 1;
+      }
+    }
+    label {
+      position: absolute;
+      bottom: 20%;
+    }
+    &:hover {
+      background: rgba(var(--bs-secondary-rgb), 1);
+    }
+  }
+}

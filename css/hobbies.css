@@ -1,0 +1,12 @@
+.photography-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1;
+  transition: all 0.2s ease-in-out;
+  filter: grayscale(0.6);
+}
+.photography-image:hover {
+  transform: scale(1.05);
+  filter: none;
+}/*# sourceMappingURL=hobbies.css.map */

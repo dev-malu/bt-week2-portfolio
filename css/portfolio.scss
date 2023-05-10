@@ -1,0 +1,48 @@
+#portfolio {
+  .portfolio-card {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    &:before {
+      content: '';
+      float: left;
+      padding-top: 100%;
+    }
+    .portfolio-image {
+      position: absolute;
+      transition: inherit;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .on-hover {
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      transition: inherit;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    &:hover {
+      .on-hover {
+        opacity: 1;
+      }
+    }
+    a {
+      transition: inherit;
+      i {
+        transition: inherit;
+        transition-delay: .5s;
+      }
+      &:hover {
+        transform: scale(1.2);
+        i {
+          margin-left: 1rem !important;
+        }
+      }
+    }
+  }
+}
