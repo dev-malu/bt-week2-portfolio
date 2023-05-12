@@ -111,7 +111,7 @@
 
             <div class="col-12 col-md-6 mb-3">
               <label for="form-f-name" class="form-label">First name</label>
-              <input name="firstname" type="text" class="form-control form-control-lg fs-6" id="form-f-name" required
+              <input name="firstname" type="text" pattern="[a-zA-Z ]"  class="form-control form-control-lg fs-6" id="form-f-name" required
                 placeholder="First Name" />
               <div class="invalid-feedback">
                 First name is required
@@ -120,7 +120,7 @@
 
             <div class="col-12 col-md-6 mb-3">
               <label for="form-l-name" class="form-label">Last Name</label>
-              <input type="text" class="form-control form-control-lg fs-6" name="lastname" placeholder="Last Name"
+              <input type="text" class="form-control form-control-lg fs-6" name="lastname" pattern="[a-zA-Z ]" placeholder="Last Name"
                 id="form-l-name" required="required" />
               <div class="invalid-feedback">
                 Last name is required
