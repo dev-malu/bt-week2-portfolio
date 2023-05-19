@@ -110,44 +110,37 @@
           <div class="row">
 
             <div class="col-12 col-md-6 mb-3">
-              <label for="form-f-name" class="form-label">First name</label>
-              <input name="firstname" type="text" pattern="[a-zA-Z ]"  class="form-control form-control-lg fs-6" id="form-f-name" required
-                placeholder="First Name" />
-              <div class="invalid-feedback">
-                First name is required
-              </div>
+              <label for="form-f-name" class="form-label" id="firstName">First name</label>
+              <input name="firstname" type="text" pattern="[a-zA-Z ]" class="form-control form-control-lg fs-6"
+                id="form-f-name" placeholder="First Name" />
+              <div class="invalid-feedback"></div>
             </div>
+
 
             <div class="col-12 col-md-6 mb-3">
               <label for="form-l-name" class="form-label">Last Name</label>
-              <input type="text" class="form-control form-control-lg fs-6" name="lastname" pattern="[a-zA-Z ]" placeholder="Last Name"
-                id="form-l-name" required="required" />
-              <div class="invalid-feedback">
-                Last name is required
-              </div>
+              <input type="text" class="form-control form-control-lg fs-6" name="lastname" pattern="[a-zA-Z ]"
+                placeholder="Last Name" id="form-l-name" />
+              <div class="invalid-feedback"></div>
             </div>
 
             <div class="col-12 mb-3">
               <label for="form-email" class="form-label">Email</label>
               <input type="email" name="email" id="form-email" class="form-control form-control-lg fs-6"
-                placeholder="someone@example.com" required="required" />
-              <div class="invalid-feedback">
-                Email is required
-              </div>
+                placeholder="someone@example.com" />
+              <div class="invalid-feedback"></div>
             </div>
 
             <div class="col-12 mb-3">
-              <label for="form-message" class="form-label">Contact Reson</label>
+              <label for="form-message" class="form-label">Contact Reason</label>
               <textarea name="message" id="form-message" cols="30" rows="10" class="form-control"
-                placeholder="Type your message here.." required="required"></textarea>
-              <div class="invalid-feedback">
-                message is required
-              </div>
+                placeholder="Type your message here.."></textarea>
+              <div class="invalid-feedback"></div>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-3">
-              <button class="btn btn-secondary w-100" type="submit">Submit</button>
+              <button class="btn btn-secondary w-100" type="submit" id="submit">Submit</button>
             </div>
           </div>
         </form>
